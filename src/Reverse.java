@@ -4,7 +4,7 @@ import java.io.*;
 public class Reverse {
     static String ReverseWithString(String str) {
         // Reverse using a String --> creates lots of strings
-        // # of strings created == str.length()+1
+        // # of strings created == str.length()+2
         String s = "";
         for (int i = str.length() - 1; i >= 0 ; i--) {
             s += str.charAt(i);
